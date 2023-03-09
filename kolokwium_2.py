@@ -6,13 +6,12 @@
 #
 # Podano słowa: [kot, chomik]
 
-a = int(input("Podaj ilośc słów: "))
 
 lista=[]
+name = "dsfgsdfgsdfgd"
 
-for i in range(a):
-    i = input("Podaj słowo: ")
-    lista.append(i)
-    if i == str():
-        break
-print(lista)
+while name!="":
+    name = input("Podaj słowo: ")
+    lista.append(name)
+else:
+    print(lista)
